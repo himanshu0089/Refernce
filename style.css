@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary-color:#def2f1;
+    --secondary-color:#2B7A78;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin:2px;
+     background-color: #3aafa9;
+}
+header{
+    background-color: #2B7A78;
+    padding:0.5rem;
+    height:3rem;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.header__logo
+{
+    margin-left:2rem;
+}
+.header__content
+{
+    display:flex;
+    margin-left:auto;
+    align-items: center;
+    
+}
+.header__content li{
+    display: inline-block;
+    margin-right:2rem;
+
+}
+a{
+    text-decoration:none;
+}
+
+.alert{
+    margin:2rem;
+    height:40rem;
+}
+.alert__simple
+{
+    width:16.5%;
+    padding:0.5rem;
+    margin:1rem;
+
+}
+.success-alert
+{
+   
+    background-color: green;
+    border:1px solid black;
+}
+.info-alert
+{
+    background-color: lightblue;
+    border:1px solid black;
+    padding:0.5rem;
+    margin:1rem;
+  
+}
+.warning-alert
+{
+    background-color: yellow;
+    border:1px solid black;
+    padding:0.5rem;
+    margin:1rem;
+    
+}
+.error-alert
+{
+
+    background-color: red;
+    border:1px solid black;
+    padding:0.5rem;
+    margin:1rem;
+}
+
+iframe
+{
+    width: 68rem;
+    height: 22rem;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
+/*
+.descriptive-alert
+{
+    display: inline-block;
+    background-color: green;
+    border:1px solid black;
+    width:20%;
+    padding:0.2rem;
+    margin:1rem;
+
+}
+/*
+.info-dec-alert
+{
+    display: inline-block;
+    background-color: lightblue;
+    border:1px solid black;
+    width:16.5%;
+    padding: 0.5rem;
+    margin:1rem;
+}
+.warning-dec-alert
+{
+    display: inline-block;
+    background-color: yellow;
+    border:1px solid black;
+    width: 16.5rem;
+    padding: 0.5rem;
+    margin:1rem;
+}
+.error-dec-alert
+{
+    display: inline-block;
+    background-color: red;
+    border:1px solid black;
+    width:16.5%;
+    padding: 0.5rem;
+    margin:1rem;
+}
+*/
+.icon-alert
+{
+    display: inline-block;
+    background-color: green;
+    border:1px solid black;
+    width:16.5%;
+    padding:0.5rem;
+    margin:1rem;
+
+}
+/*
+.info-icon-alert
+{
+    display: inline-block;
+    background-color: lightblue;
+    border:1px solid black;
+    width:16.5%;
+    padding: .5rem;
+    margin:1rem;
+}
+.warning-icon-alert
+{
+    display: inline-block;
+    background-color: yellow;
+    border:1px solid black;
+    width: 16.5rem;
+    padding:0.5rem;
+    margin:1rem;
+}
+.error-icon-alert
+{
+    display: inline-block;
+    background-color: red;
+    border:1px solid black;
+    width:16.5%;
+    padding: .5rem;
+    margin:1rem;
+}*/
